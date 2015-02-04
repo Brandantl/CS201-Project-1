@@ -1,0 +1,14 @@
+C++
+
+Sample input: no greather than +/-2^64-1. (32)
+
+Known Issues and limitations:
+There is probably other ways to break it by dumping a large amount of text into it or something, symbols, etc. 
+
+Algorithm:
+Prompt user for input
+Check if input is the right type or not, if not, prompt the user to enter a correct INT64
+Check if the input > 0, if not prompt the user to reenter a valid INT64.
+Modulus the decimal number by 2 then add it to binary (a stringstream). (side note: negitive ints were converted to positive ints) 
+Then shift decimal over 1 and loop until decimal is >= 1
+Then print the output as a string because stoi and atoi were causing headakes. 
