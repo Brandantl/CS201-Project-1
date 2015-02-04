@@ -69,6 +69,14 @@
   <ItemGroup>
     <ClInclude Include="DeciToBin.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="MISC\fix.png" />
+    <Image Include="MISC\Flowchart.bmp" />
+    <Image Include="MISC\Screenshot 4-20-2014 19 43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="MISC\notes.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

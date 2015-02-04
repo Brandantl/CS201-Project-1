@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="MISC">
+      <UniqueIdentifier>{1562673d-3d3d-4c07-8ed0-3e8d880c95eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DeciToBin.cpp">
@@ -23,5 +26,21 @@
     <ClInclude Include="DeciToBin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MISC\fix.png">
+      <Filter>MISC</Filter>
+    </Image>
+    <Image Include="MISC\Flowchart.bmp">
+      <Filter>MISC</Filter>
+    </Image>
+    <Image Include="MISC\Screenshot 4-20-2014 19 43.png">
+      <Filter>MISC</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="MISC\notes.txt">
+      <Filter>MISC</Filter>
+    </Text>
   </ItemGroup>
 </Project>
